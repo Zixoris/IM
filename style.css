@@ -180,7 +180,7 @@ body {
 .offer-block {
     display: flex;
     justify-content: space-between;
-    margin: 88px;
+    margin-top: 88px;
 }
 
 .offer-block-big {
@@ -306,8 +306,7 @@ body {
 
 .product-card__text-box {
     text-align: left;
-    padding-left: 14px;
-    padding-top: 19px;
+    padding: 20px 14px;
 }
 
 .product-card-image {
@@ -315,18 +314,21 @@ body {
 }
 
 .add-to-cart-hover {
-    display: none;
-    position: absolute;
-    top: 98px;
-    left: 70px;
+
+    margin: auto;
     color: white;
     text-decoration: none;
     padding: 15px;
     border: 1px solid #fff;
 }
 
-.product-card:hover .add-to-cart-hover {
-    display: block;
+.add-to-cart-hover:hover {
+    background: #fff;
+    color: #222;
+}
+
+.product-card:hover .add-to-cart-box {
+    opacity: 1;
 }
 
 .browse-all-btn {
@@ -345,9 +347,7 @@ body {
     margin-bottom: 40px;
 }
 
-.offer-woman-block-captpion {
-    
-}
+.offer-woman-block-captpion {}
 
 .offer-woman-block-left {
     width: 767px;
@@ -370,11 +370,11 @@ body {
 .offer-woman-block-secondary-text {
     font-size: 32px;
     color: white;
-    
+
 }
 
 .offer-woman-block-caption {
-   position: absolute;
+    position: absolute;
     top: 145px;
     left: 40px;
 }
@@ -395,7 +395,7 @@ body {
 .condition-block__caption {
     color: #fff;
     font-size: 20px;
-font-weight: 700;
+    font-weight: 700;
     margin-bottom: 17px;
 }
 
@@ -405,9 +405,7 @@ font-weight: 700;
 
 
 
-.condition-block__image {
-
-}
+.condition-block__image {}
 
 .condition-block__image-block {
     margin-right: 30px;
@@ -415,6 +413,41 @@ font-weight: 700;
 
 .condition-block__describe {
     font-size: 14px;
-font-weight: 300;
-line-height: 24px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.review-subscribe-slider {
+    margin-top: 100px;
+    height: 438px;
+    background: url(img/Layer_41.jpg) no-repeat no-repeat center;
+    filter: opacity(50%);
+}
+
+.rev-sub-slider {
+    display: flex;
+    height: 100%;
+}
+
+
+
+.rev-sub-slider-left {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+}
+
+.rev-sub-slider-right {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.add-to-cart-box {
+    position: absolute;
+    top: 98px;
+    opacity: 0;
+    width: 100%;
 }
