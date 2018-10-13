@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:
 }
 
 body {
@@ -138,4 +137,43 @@ body {
 
 .menu__el:hover {
     border-bottom: 2px solid #f16d7f;
+}
+
+.slider {
+    height: 613px;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.slider-back {
+    background: url(img/Layer_24.jpg) 0px -55px;
+    height: 100%;
+}
+
+.slider-text-h2 {
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.slider-text-h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.slider-text-field {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-top: 211px;
+}
+
+.pink-left-border {
+    height: 92px;
+    width: 12px;
+    background: #f16d7f;
+    margin-right: 12px;
+}
+
+.slider-text {
 }
