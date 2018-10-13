@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:
+}
+
+body {
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-right: 37px;
+}
+
+.header-form {
+    display: flex;
+    position: relative;
+}
+
+.text-mark {
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+.logo_image {
+    margin-right: 13px;
+}
+
+.header-form__browse-btn {
+    padding: 14px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    border-right: 0;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-form__search-inp {
+    padding: 14px 46px 14px 16px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    outline: 0;
+}
+
+.header-form__submit-btn {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    border-radius: 0 3px 3px 0;
+    outline: 0;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 38px;
+    background-color: #f16d7f;
+    padding: 0px 19px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    border: 1px solid #f16d7f;
+    color: #f16d7f;
+    background: #fff;
+}
+
+.header-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cart-btn {
+    margin-right: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top
+}
+
+.menu > li {
+    list-style-type: none;
+}
+
+.menu__el {
+    display: block;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 18px 16px 18px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__el:hover {
+    border-bottom: 2px solid #f16d7f;
+}
