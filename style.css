@@ -328,3 +328,93 @@ body {
 .product-card:hover .add-to-cart-hover {
     display: block;
 }
+
+.browse-all-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 48px;
+    text-align: center;
+    display: inline-block;
+}
+
+.offer-woman-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222224;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.offer-woman-block-captpion {
+    
+}
+
+.offer-woman-block-left {
+    width: 767px;
+    height: 529px;
+    background: url(img/Layer_38.jpg);
+}
+
+.offer-woman-block-left-filter {
+    width: 100%;
+    height: 100%;
+    background: url(img/Layer_39.png);
+    position: relative;
+}
+
+.offer-woman-block-main-text {
+    color: white;
+    font-size: 54px;
+}
+
+.offer-woman-block-secondary-text {
+    font-size: 32px;
+    color: white;
+    
+}
+
+.offer-woman-block-caption {
+   position: absolute;
+    top: 145px;
+    left: 40px;
+}
+
+.offer-woman-block-right {
+    width: 373px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.condition-block {
+    width: 324px;
+    display: flex;
+}
+
+.condition-block__caption {
+    color: #fff;
+    font-size: 20px;
+font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.condition-block__text {
+    color: #fff;
+}
+
+
+
+.condition-block__image {
+
+}
+
+.condition-block__image-block {
+    margin-right: 30px;
+}
+
+.condition-block__describe {
+    font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+}
