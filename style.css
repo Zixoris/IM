@@ -177,3 +177,84 @@ body {
 
 .slider-text {
 }
+
+.offer-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 88px;
+}
+
+.offer-block-big {
+    display: block;
+    height: 542px;;
+    width: 560px;
+    background:  #ccc;
+    margin: 20px 0;
+    color: #222;
+    text-decoration: none;
+}
+
+.offer-block-small {
+    display: block;
+    height: 261px;
+    width: 560px;
+    background: #dadad2;
+    margin: 20px 0;
+    color: #222;
+    text-decoration: none;
+}
+
+.hot-deal-for-men-block {
+    background: url(img/Layer_30.jpg)
+}
+
+.accesories-block {
+    background: url(img/Layer_37.jpg)  160px  no-repeat #dadad2;;
+}
+
+.offer-for-woman-block {
+    background: url(img/Layer_32.jpg);
+}
+
+.arrivals-for-kids-block {
+    background: url(img/Layer_31.jpg);
+}
+
+.offer-block-describe >h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.offer-block-describe>h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.offer-block-describe {
+    margin-top: 26px;
+    display: inline-block;
+    padding: 16px 20px;
+    background: #fff;
+}
+
+.featured-items-slider>h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.featured-items-slider {
+    text-align: center;
+}
+
+.featured-items-slider>p{
+    color: #9f9f9f;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 54px
+}
+
+.card-field {
+    width: 100%;
+    display: flex;
+}
+
