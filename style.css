@@ -175,8 +175,7 @@ body {
     margin-right: 12px;
 }
 
-.slider-text {
-}
+.slider-text {}
 
 .offer-block {
     display: flex;
@@ -186,9 +185,10 @@ body {
 
 .offer-block-big {
     display: block;
-    height: 542px;;
+    height: 542px;
+    ;
     width: 560px;
-    background:  #ccc;
+    background: #ccc;
     margin: 20px 0;
     color: #222;
     text-decoration: none;
@@ -209,7 +209,8 @@ body {
 }
 
 .accesories-block {
-    background: url(img/Layer_37.jpg)  160px  no-repeat #dadad2;;
+    background: url(img/Layer_37.jpg) 160px no-repeat #dadad2;
+    ;
 }
 
 .offer-for-woman-block {
@@ -220,11 +221,12 @@ body {
     background: url(img/Layer_31.jpg);
 }
 
-.offer-block-describe >h5 {
+.offer-block-describe > h5 {
     font-size: 18px;
     text-transform: uppercase;
 }
-.offer-block-describe>h4 {
+
+.offer-block-describe > h4 {
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -236,7 +238,7 @@ body {
     background: #fff;
 }
 
-.featured-items-slider>h4 {
+.featured-items-slider > h4 {
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -245,16 +247,84 @@ body {
     text-align: center;
 }
 
-.featured-items-slider>p{
+.featured-items-slider > p {
     color: #9f9f9f;
-font-family: Lato;
-font-size: 14px;
-font-weight: 400;
-line-height: 54px
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px
 }
 
 .card-field {
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
+
+.product-card {
+    width: 263px;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+}
+
+.product-card:hover {
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-card:hover .product-card__image {
+    filter: brightness(0.3);
+}
+
+.product-card__caption {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+}
+
+.product-card__price {
+    padding-top: 17px;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.product-card__text-box {
+    text-align: left;
+    padding-left: 14px;
+    padding-top: 19px;
+}
+
+.product-card-image {
+    width: 100%;
+}
+
+.add-to-cart-hover {
+    display: none;
+    position: absolute;
+    top: 98px;
+    left: 70px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.product-card:hover .add-to-cart-hover {
+    display: block;
+}
