@@ -3,21 +3,28 @@
     padding: 0;
 }
 
-html {
-    min-height: 100%;
+html,
+body {
+    height: 100%;
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
     color: #222222;
     font-family: 'Lato', sans-serif;
 }
 
+div.wrap > section {
+    display: 1 0 auto;
+}
+
+
+
 .header {
     height: 100px;
     min-width: 1140px;
-    
     border-bottom: 1px solid #ececec;
+    display: 0 0 auto;
 }
 
 .container {
@@ -85,11 +92,11 @@ body {
 
 .header-form__submit-btn {
     position: absolute;
-   height: 39px;
+    height: 39px;
     width: 38px;
     right: 0;
     padding: 15px;
-    background:url(img/fl.png) no-repeat no-repeat center #ffffff;
+    background: url(img/fl.png) no-repeat no-repeat center #ffffff;
     border: 1px solid #e6e6e6;
     border-radius: 0 3px 3px 0;
     outline: 0;
@@ -126,7 +133,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-top
+
 }
 
 .menu > li {
@@ -594,9 +601,9 @@ body {
     height: 80px;
     background-color: #e6e6e6;
     min-width: 1140px;
+    flex: 0 0 auto;
 }
 
-.wrap {}
 
 .about {
     margin-top: 120px;
@@ -611,7 +618,7 @@ body {
     display: flex;
 }
 
-.site-link { 
+.site-link {
     flex: 2 500px;
     display: flex;
     justify-content: space-between;
@@ -625,7 +632,8 @@ body {
     margin-top: 30px;
     font-size: 14px;
     font-weight: 300;
-    line-height: 24px;color: #898989;
+    line-height: 24px;
+    color: #898989;
     padding-right: 20px;
 }
 
@@ -633,8 +641,8 @@ body {
     flex: 1;
 }
 
-.map-link>li{
-        list-style-type: none;
+.map-link > li {
+    list-style-type: none;
 }
 
 .map-item {
@@ -644,10 +652,10 @@ body {
     font-weight: 400;
     color: #898989;
     text-decoration: none;
-    border-bottom: 4px solid  transparent;
+    border-bottom: 4px solid transparent;
 }
 
-.map-item:hover{
+.map-item:hover {
     border-bottom: 4px solid #f16d7f;
 }
 
@@ -662,8 +670,8 @@ body {
 
 .copy-right-text {
     color: #7a7a7a;
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .icon-link {
@@ -679,9 +687,17 @@ font-weight: 400;
     color: #b2b2b2;
 }
 
-.icon-link:hover{
-   background-color: #f16d7f;
+.icon-link:hover {
+    background-color: #f16d7f;
     color: #f7f7f8;
 }
 
+.wrap-content {
+    flex: 1 0 auto;
+}
 
+.wrap {
+    height: 100%;
+ display: flex;
+    flex-direction: column;
+}
