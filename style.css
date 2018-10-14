@@ -601,7 +601,7 @@ div.wrap > section {
     height: 80px;
     background-color: #e6e6e6;
     min-width: 1140px;
-    flex: 0 0 auto;
+    flex: 0;
 }
 
 
@@ -693,7 +693,7 @@ div.wrap > section {
 }
 
 .wrap-content {
-    flex: 1 0 auto;
+    flex: 1;
 }
 
 .wrap {
