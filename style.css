@@ -138,6 +138,7 @@ div.wrap > section {
 
 .menu > li {
     list-style-type: none;
+    position: relative;
 }
 
 .menu__el {
@@ -340,8 +341,8 @@ div.wrap > section {
 }
 
 .add-to-cart-hover:hover {
-    background: #fff;
-    color: #222;
+    background: #f16d7f;
+    color: #fff;
 }
 
 .product-card:hover .add-to-cart-box {
@@ -439,12 +440,12 @@ div.wrap > section {
     height: 438px;
     min-width: 1140px;
     background: url(img/Layer_41.jpg) no-repeat no-repeat center;
-    background-size: cover;
 }
 
 .rev-sub-slider {
     display: flex;
     height: 100%;
+
 }
 
 
@@ -698,6 +699,75 @@ div.wrap > section {
 
 .wrap {
     height: 100%;
- display: flex;
+    display: flex;
     flex-direction: column;
+}
+
+.mega-box {
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px;
+    display: none;
+}
+
+.mega-box:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    position: absolute;
+    top: -7px;
+    left: 60px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.mega-flex li {
+    list-style-type: none;
+}
+
+.submenu-el {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-decoration: none;
+    color: #222224;
+    line-height: 28px;
+    color: #646464;
+    letter-spacing: 0.35px;
+}
+
+.submenu-el:hover {
+    color: #f16d7f;
+}
+
+.mega-heading {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.mega-flex {
+    width: 190px;
+    margin-right: 45px;
+}
+
+.mega-flex:last-of-type {
+    margin-right: 0px;
+}
+
+.menu > li:hover .mega-box {
+    display: flex;
 }
